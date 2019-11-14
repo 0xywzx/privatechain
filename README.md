@@ -14,6 +14,6 @@ $ geth --datadir node1/ --syncmode 'full' --port 30311 --rpc --rpcaddr '0.0.0.0'
 ```
 $ cd sample-chain
 $ geth attach ipc:node1/geth.ipc
-> personal.unlockAccount(eth.coinbase,"sample",0)
+> personal.unlockAccount(eth.coinbase,"Sample",0)
 > mimer.start()
 ```
