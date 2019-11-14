@@ -6,7 +6,7 @@ password : Sample
 ```
 
 ```
-$ git clone git@github.com:Yosuke-Aramaki/sample-chain.git
+$ git clone git@github.com:Yosuke-Aramaki/privatechain.git
 $ cd sample-chain
 $ geth --datadir node1/ --syncmode 'full' --port 30311 --rpc --rpcaddr '0.0.0.0' --rpcport 8545 --rpccorsdomain "*" --rpcvhosts "*" --rpcapi 'personal,db,eth,net,web3,txpool,miner' --ws --wsapi 'eth,web3,net' --wsorigins='*' --wsaddr='0.0.0.0' --wsport 8546 --networkid 1515 --gasprice '0'
 ```
